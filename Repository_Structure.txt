@@ -1,0 +1,32 @@
+ 
+DevSpace Manager/
+│
+├── src/                      # Source code directory
+│   ├── __init__.py
+│   ├── main.py              # Main application entry point
+│   ├── developer_workspace.py # Main workspace class
+│   └── utils/               # Utility functions and helpers
+│       ├── __init__.py
+│       └── file_handlers.py
+│
+├── assets/                  # Application assets
+│   ├── icons/              # Application icons
+│   │   ├── app_icon.png
+│   │   └── file_icons/
+│   └── styles/             # CSS/Style files
+│       └── theme.css
+│
+├── docs/                    # Documentation
+│   ├── README.html
+│   └── user_guide.md
+│
+├── tests/                   # Test files
+│   ├── __init__.py
+│   └── test_workspace.py
+│
+├── requirements.txt         # Python dependencies
+├── setup.py                # Installation script
+├── README.txt              # Plain text readme
+├── README.md               # GitHub readme
+├── LICENSE                 # License file
+└── .gitignore             # Git ignore file
